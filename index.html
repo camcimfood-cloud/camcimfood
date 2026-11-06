@@ -189,15 +189,37 @@
             transform: translateY(-8px);
         }
 
+        .product-img-container {
+            width: 100%;
+            height: 280px;
+            background: #fff;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        .product-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: 0.3s;
+        }
+
+        .product-card:hover .product-img {
+            transform: scale(1.05);
+        }
+
         .product-body {
-            padding: 25px;
+            padding: 20px;
             display: flex;
             flex-direction: column;
             flex-grow: 1;
         }
 
         .product-title {
-            font-size: 1.4rem;
+            font-size: 1.3rem;
             color: var(--dark);
             margin-bottom: 8px;
             font-weight: 700;
@@ -205,7 +227,7 @@
 
         .product-tags {
             display: flex;
-            gap: 8px;
+            gap: 6px;
             flex-wrap: wrap;
             margin-bottom: 15px;
         }
@@ -213,14 +235,14 @@
         .tag {
             background: #ffe6e6;
             color: var(--primary);
-            font-size: 0.8rem;
-            padding: 4px 12px;
+            font-size: 0.75rem;
+            padding: 4px 10px;
             border-radius: 20px;
             font-weight: 600;
         }
 
         .product-price {
-            font-size: 1.5rem;
+            font-size: 1.4rem;
             font-weight: 800;
             color: var(--primary);
             margin-top: auto;
@@ -323,8 +345,11 @@
         </div>
         <div class="grid-container">
 
-            <!-- Kerupuk Rafael (Menu Baru) -->
+            <!-- Kerupuk Rafael -->
             <div class="product-card">
+                <div class="product-img-container">
+                    <img src="kerupuk-rafael.jpg" alt="Kerupuk Rafael" class="product-img">
+                </div>
                 <div class="product-body">
                     <h3 class="product-title">Kerupuk Rafael</h3>
                     <div class="product-tags">
@@ -341,6 +366,9 @@
 
             <!-- Basreng Original -->
             <div class="product-card">
+                <div class="product-img-container">
+                    <img src="basreng-original.jpg" alt="Basreng Original" class="product-img">
+                </div>
                 <div class="product-body">
                     <h3 class="product-title">Basreng Original</h3>
                     <div class="product-tags">
@@ -357,6 +385,9 @@
 
             <!-- Basreng Pedas -->
             <div class="product-card">
+                <div class="product-img-container">
+                    <img src="basreng-pedas.jpg" alt="Basreng Pedas" class="product-img">
+                </div>
                 <div class="product-body">
                     <h3 class="product-title">Basreng Pedas</h3>
                     <div class="product-tags">
@@ -373,6 +404,9 @@
 
             <!-- Makaroni Bantet -->
             <div class="product-card">
+                <div class="product-img-container">
+                    <img src="makaroni-bantet.jpg" alt="Makaroni Bantet" class="product-img">
+                </div>
                 <div class="product-body">
                     <h3 class="product-title">Makaroni Bantet</h3>
                     <div class="product-tags">
@@ -389,6 +423,9 @@
 
             <!-- Makaroni Spiral -->
             <div class="product-card">
+                <div class="product-img-container">
+                    <img src="makaroni-spiral.jpg" alt="Makaroni Spiral" class="product-img">
+                </div>
                 <div class="product-body">
                     <h3 class="product-title">Makaroni Spiral</h3>
                     <div class="product-tags">
@@ -405,6 +442,9 @@
 
             <!-- Keripik Sosis -->
             <div class="product-card">
+                <div class="product-img-container">
+                    <img src="keripik-sosis.jpg" alt="Keripik Sosis" class="product-img">
+                </div>
                 <div class="product-body">
                     <h3 class="product-title">Keripik Sosis</h3>
                     <div class="product-tags">
@@ -421,6 +461,9 @@
 
             <!-- Keripik Beton -->
             <div class="product-card">
+                <div class="product-img-container">
+                    <img src="keripik-beton.jpg" alt="Keripik Beton" class="product-img">
+                </div>
                 <div class="product-body">
                     <h3 class="product-title">Keripik Beton</h3>
                     <div class="product-tags">
@@ -437,6 +480,9 @@
 
             <!-- Usus Kering -->
             <div class="product-card">
+                <div class="product-img-container">
+                    <img src="usus-kering.jpg" alt="Usus Kering" class="product-img">
+                </div>
                 <div class="product-body">
                     <h3 class="product-title">Usus Kering</h3>
                     <div class="product-tags">
