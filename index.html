@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Camcim Foods - Aneka Camilan Gurih & Renyah</title>
+    <title>Camcim Foods - Aneka Camilan & Makanan Segar</title>
     <!-- Google Fonts & Font Awesome Icons -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -56,14 +56,14 @@
         }
 
         .logo-img {
-            height: 50px;
-            width: 50px;
+            height: 40px;
+            width: 40px;
             object-fit: contain;
             border-radius: 50%;
         }
 
         .brand-name {
-            font-size: 1.4rem;
+            font-size: 1.2rem;
             font-weight: 800;
             color: var(--primary);
             text-transform: uppercase;
@@ -86,63 +86,27 @@
             color: var(--primary);
         }
 
-        /* Hero Section */
-        .hero {
-            margin-top: 70px;
-            background: linear-gradient(135deg, var(--primary), #b31217);
-            color: var(--white);
-            padding: 60px 20px 80px;
+        /* Hero Banner Section */
+        .hero-banner {
+            margin-top: 65px;
+            width: 100%;
+            background: var(--light);
+            padding: 15px 10px;
             text-align: center;
-            position: relative;
-            overflow: hidden;
         }
 
-        .hero-logo {
-            width: 130px;
-            height: 130px;
-            object-fit: contain;
-            background: var(--white);
-            border-radius: 50%;
-            padding: 5px;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
-            margin-bottom: 20px;
-        }
-
-        .hero h1 {
-            font-size: 3rem;
-            font-weight: 800;
-            margin-bottom: 15px;
-        }
-
-        .hero p {
-            font-size: 1.2rem;
-            max-width: 600px;
-            margin: 0 auto 30px;
-            opacity: 0.95;
-        }
-
-        .btn-cta {
-            display: inline-block;
-            background: var(--secondary);
-            color: var(--dark);
-            padding: 14px 32px;
-            border-radius: 30px;
-            font-weight: 700;
-            font-size: 1.1rem;
-            text-decoration: none;
-            box-shadow: 0 4px 15px rgba(255, 183, 3, 0.4);
-            transition: 0.3s transform, 0.3s background;
-        }
-
-        .btn-cta:hover {
-            transform: translateY(-3px);
-            background: #ffa000;
+        .hero-banner img {
+            width: 100%;
+            max-width: 1200px;
+            height: auto;
+            border-radius: 16px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
         }
 
         /* Menu Section */
         .products-section {
             max-width: 1200px;
-            margin: 60px auto;
+            margin: 40px auto;
             padding: 0 20px;
         }
 
@@ -308,7 +272,6 @@
         }
 
         @media (max-width: 768px) {
-            .hero h1 { font-size: 2.2rem; }
             .nav-links { display: none; }
         }
     </style>
@@ -330,12 +293,9 @@
         </div>
     </header>
 
-    <!-- Hero Banner -->
-    <section class="hero" id="home">
-        <img src="logo.png" alt="Camcim Foods" class="hero-logo">
-        <h1>CAMCIM FOODS</h1>
-        <p>Camilan Gurih, Renyah, dan Pedas Mantap untuk Menemani Hari-Harimu!</p>
-        <a href="#menu" class="btn-cta">Pesan Sekarang</a>
+    <!-- Banner Utama (Background Baru yang Anda Unggah) -->
+    <section class="hero-banner" id="home">
+        <img src="1000706355.jpg" alt="Camcim Foods Banner">
     </section>
 
     <!-- Menu Produk -->
@@ -345,7 +305,7 @@
         </div>
         <div class="grid-container">
 
-            <!-- Kerupuk Rafael -->
+            <!-- Kerupuk Rafael (Sesuai Permintaan) -->
             <div class="product-card">
                 <div class="product-img-container">
                     <img src="Promo Menu Jajanan Simpel_20261106_102224_0000.png" alt="Kerupuk Rafael" class="product-img">
@@ -359,6 +319,44 @@
                     </div>
                     <div class="product-price">Rp 6.000 / 100g</div>
                     <a href="https://wa.me/6285211932215?text=Halo%20Camcim%20Foods,%20saya%20ingin%20pesan%20Kerupuk%20Rafael" class="btn-order" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Pesan via WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- Makaroni Spiral (Sesuai Permintaan) -->
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="3_20261105_221232_0002.png" alt="Makaroni Spiral" class="product-img">
+                </div>
+                <div class="product-body">
+                    <h3 class="product-title">Makaroni Spiral</h3>
+                    <div class="product-tags">
+                        <span class="tag">Gurih</span>
+                        <span class="tag">Asin</span>
+                        <span class="tag">Kriuk</span>
+                    </div>
+                    <div class="product-price">Rp 6.000 / 100g</div>
+                    <a href="https://wa.me/6285211932215?text=Halo%20Camcim%20Foods,%20saya%20ingin%20pesan%20Makaroni%20Spiral" class="btn-order" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Pesan via WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- Makaroni Bantet (Sesuai Permintaan) -->
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="7_20261105_221233_0006.png" alt="Makaroni Bantet" class="product-img">
+                </div>
+                <div class="product-body">
+                    <h3 class="product-title">Makaroni Bantet</h3>
+                    <div class="product-tags">
+                        <span class="tag">Gurih</span>
+                        <span class="tag">Asin</span>
+                        <span class="tag">Kriuk</span>
+                    </div>
+                    <div class="product-price">Rp 6.000 / 100g</div>
+                    <a href="https://wa.me/6285211932215?text=Halo%20Camcim%20Foods,%20saya%20ingin%20pesan%20Makaroni%20Bantet" class="btn-order" target="_blank">
                         <i class="fab fa-whatsapp"></i> Pesan via WhatsApp
                     </a>
                 </div>
@@ -397,44 +395,6 @@
                     </div>
                     <div class="product-price">Rp 6.000 / 100g</div>
                     <a href="https://wa.me/6285211932215?text=Halo%20Camcim%20Foods,%20saya%20ingin%20pesan%20Basreng%20Pedas" class="btn-order" target="_blank">
-                        <i class="fab fa-whatsapp"></i> Pesan via WhatsApp
-                    </a>
-                </div>
-            </div>
-
-            <!-- Makaroni Bantet -->
-            <div class="product-card">
-                <div class="product-img-container">
-                    <img src="7_20261105_221233_0006.png" alt="Makaroni Bantet" class="product-img">
-                </div>
-                <div class="product-body">
-                    <h3 class="product-title">Makaroni Bantet</h3>
-                    <div class="product-tags">
-                        <span class="tag">Gurih</span>
-                        <span class="tag">Asin</span>
-                        <span class="tag">Kriuk</span>
-                    </div>
-                    <div class="product-price">Rp 6.000 / 100g</div>
-                    <a href="https://wa.me/6285211932215?text=Halo%20Camcim%20Foods,%20saya%20ingin%20pesan%20Makaroni%20Bantet" class="btn-order" target="_blank">
-                        <i class="fab fa-whatsapp"></i> Pesan via WhatsApp
-                    </a>
-                </div>
-            </div>
-
-            <!-- Makaroni Spiral -->
-            <div class="product-card">
-                <div class="product-img-container">
-                    <img src="3_20261105_221232_0002.png" alt="Makaroni Spiral" class="product-img">
-                </div>
-                <div class="product-body">
-                    <h3 class="product-title">Makaroni Spiral</h3>
-                    <div class="product-tags">
-                        <span class="tag">Gurih</span>
-                        <span class="tag">Asin</span>
-                        <span class="tag">Kriuk</span>
-                    </div>
-                    <div class="product-price">Rp 6.000 / 100g</div>
-                    <a href="https://wa.me/6285211932215?text=Halo%20Camcim%20Foods,%20saya%20ingin%20pesan%20Makaroni%20Spiral" class="btn-order" target="_blank">
                         <i class="fab fa-whatsapp"></i> Pesan via WhatsApp
                     </a>
                 </div>
@@ -515,8 +475,8 @@
             </div>
             <div class="contact-box">
                 <i class="fas fa-map-marker-alt"></i>
-                <h3>Lokasi</h3>
-                <p>Kabupaten Tangerang, Banten</p>
+                <h3>Lokasi & Jam</h3>
+                <p>Perum Sudirman Indah / GSG Pemda Tigaraksa<br>Open Daily: Sabtu (17.00 - 20.30) Minggu (06.30 - 10.20)</p>
             </div>
         </div>
     </section>
