@@ -112,11 +112,11 @@
 
         .section-title {
             text-align: center;
-            margin-bottom: 40px;
+            margin: 50px 0 30px;
         }
 
         .section-title h2 {
-            font-size: 2.2rem;
+            font-size: 2rem;
             color: var(--primary);
             position: relative;
             display: inline-block;
@@ -205,6 +205,11 @@
             font-weight: 600;
         }
 
+        .tag.fresh {
+            background: #e6ffed;
+            color: #2e7d32;
+        }
+
         .product-price {
             font-size: 1.4rem;
             font-weight: 800;
@@ -287,25 +292,169 @@
             </div>
             <ul class="nav-links">
                 <li><a href="#home">Beranda</a></li>
-                <li><a href="#menu">Menu</a></li>
+                <li><a href="#segar">Makanan Segar</a></li>
+                <li><a href="#camilan">Camilan</a></li>
                 <li><a href="#kontak">Kontak</a></li>
             </ul>
         </div>
     </header>
 
-    <!-- Banner Utama (Background Baru yang Anda Unggah) -->
+    <!-- Banner Utama -->
     <section class="hero-banner" id="home">
-        <img src="IMG-20261106-WA0032.jpg" alt="Camcim Foods Banner">
+        <img src="1000706355.jpg" alt="Camcim Foods Banner">
     </section>
 
     <!-- Menu Produk -->
-    <section class="products-section" id="menu">
-        <div class="section-title">
-            <h2>Pilihan Camilan Favorit</h2>
+    <section class="products-section">
+        
+        <!-- Kategori Makanan & Minuman Segar -->
+        <div class="section-title" id="segar">
+            <h2>Makanan & Minuman Segar</h2>
         </div>
         <div class="grid-container">
 
-            <!-- Kerupuk Rafael (Sesuai Permintaan) -->
+            <!-- Salad Buah -->
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="salad-buah.jpg" alt="Salad Buah" class="product-img">
+                </div>
+                <div class="product-body">
+                    <h3 class="product-title">Salad Buah</h3>
+                    <div class="product-tags">
+                        <span class="tag fresh">Fresh</span>
+                        <span class="tag fresh">Manis</span>
+                        <span class="tag fresh">Keju Melimpah</span>
+                    </div>
+                    <div class="product-price">Rp 15.000</div>
+                    <a href="https://wa.me/6285211932215?text=Halo%20Camcim%20Foods,%20saya%20ingin%20pesan%20Salad%20Buah" class="btn-order" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Pesan via WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- Manggo Sago -->
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="manggo-sago.jpg" alt="Manggo Sago" class="product-img">
+                </div>
+                <div class="product-body">
+                    <h3 class="product-title">Manggo Sago</h3>
+                    <div class="product-tags">
+                        <span class="tag fresh">Fresh</span>
+                        <span class="tag fresh">Manis</span>
+                        <span class="tag fresh">Segar</span>
+                    </div>
+                    <div class="product-price">Rp 15.000</div>
+                    <a href="https://wa.me/6285211932215?text=Halo%20Camcim%20Foods,%20saya%20ingin%20pesan%20Manggo%20Sago" class="btn-order" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Pesan via WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- Buah Potong -->
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="buah-potong.jpg" alt="Buah Potong" class="product-img">
+                </div>
+                <div class="product-body">
+                    <h3 class="product-title">Buah Potong</h3>
+                    <div class="product-tags">
+                        <span class="tag fresh">Fresh</span>
+                        <span class="tag fresh">Sehat</span>
+                        <span class="tag fresh">Praktis</span>
+                    </div>
+                    <div class="product-price">Rp 10.000</div>
+                    <a href="https://wa.me/6285211932215?text=Halo%20Camcim%20Foods,%20saya%20ingin%20pesan%20Buah%20Potong" class="btn-order" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Pesan via WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- Ximilu -->
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="ximilu.jpg" alt="Ximilu" class="product-img">
+                </div>
+                <div class="product-body">
+                    <h3 class="product-title">Ximilu</h3>
+                    <div class="product-tags">
+                        <span class="tag fresh">Fresh</span>
+                        <span class="tag fresh">Es Buah HK</span>
+                        <span class="tag fresh">Manis</span>
+                    </div>
+                    <div class="product-price">Rp 12.000</div>
+                    <a href="https://wa.me/6285211932215?text=Halo%20Camcim%20Foods,%20saya%20ingin%20pesan%20Ximilu" class="btn-order" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Pesan via WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- Taro Sago -->
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="taro-sago.jpg" alt="Taro Sago" class="product-img">
+                </div>
+                <div class="product-body">
+                    <h3 class="product-title">Taro Sago</h3>
+                    <div class="product-tags">
+                        <span class="tag fresh">Fresh</span>
+                        <span class="tag fresh">Creamy</span>
+                        <span class="tag fresh">Manis</span>
+                    </div>
+                    <div class="product-price">Rp 12.000</div>
+                    <a href="https://wa.me/6285211932215?text=Halo%20Camcim%20Foods,%20saya%20ingin%20pesan%20Taro%20Sago" class="btn-order" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Pesan via WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- Buko Pandan -->
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="buko-pandan.jpg" alt="Buko Pandan" class="product-img">
+                </div>
+                <div class="product-body">
+                    <h3 class="product-title">Buko Pandan</h3>
+                    <div class="product-tags">
+                        <span class="tag fresh">Fresh</span>
+                        <span class="tag fresh">Wangi</span>
+                        <span class="tag fresh">Creamy</span>
+                    </div>
+                    <div class="product-price">Rp 12.000</div>
+                    <a href="https://wa.me/6285211932215?text=Halo%20Camcim%20Foods,%20saya%20ingin%20pesan%20Buko%20Pandan" class="btn-order" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Pesan via WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- Buko Alpukat -->
+            <div class="product-card">
+                <div class="product-img-container">
+                    <img src="buko-alpukat.jpg" alt="Buko Alpukat" class="product-img">
+                </div>
+                <div class="product-body">
+                    <h3 class="product-title">Buko Alpukat</h3>
+                    <div class="product-tags">
+                        <span class="tag fresh">Fresh</span>
+                        <span class="tag fresh">Alpukat Asli</span>
+                        <span class="tag fresh">Creamy</span>
+                    </div>
+                    <div class="product-price">Rp 12.000</div>
+                    <a href="https://wa.me/6285211932215?text=Halo%20Camcim%20Foods,%20saya%20ingin%20pesan%20Buko%20Alpukat" class="btn-order" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Pesan via WhatsApp
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Kategori Camilan Gurih & Renyah -->
+        <div class="section-title" id="camilan">
+            <h2>Camilan Gurih & Renyah</h2>
+        </div>
+        <div class="grid-container">
+
+            <!-- Kerupuk Rafael -->
             <div class="product-card">
                 <div class="product-img-container">
                     <img src="Promo Menu Jajanan Simpel_20261106_102224_0000.png" alt="Kerupuk Rafael" class="product-img">
@@ -324,7 +473,7 @@
                 </div>
             </div>
 
-            <!-- Makaroni Spiral (Sesuai Permintaan) -->
+            <!-- Makaroni Spiral -->
             <div class="product-card">
                 <div class="product-img-container">
                     <img src="3_20261105_221232_0002.png" alt="Makaroni Spiral" class="product-img">
@@ -343,7 +492,7 @@
                 </div>
             </div>
 
-            <!-- Makaroni Bantet (Sesuai Permintaan) -->
+            <!-- Makaroni Bantet -->
             <div class="product-card">
                 <div class="product-img-container">
                     <img src="7_20261105_221233_0006.png" alt="Makaroni Bantet" class="product-img">
